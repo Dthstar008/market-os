@@ -5,8 +5,7 @@ association (chairman/secretary/treasurer, section leaders, traders), not
 another per-merchant fintech app. The association is the customer and
 distribution channel; individual traders are users brought in through it.
 
-This is a standalone product — its own backend, database and deploy —
-separate from the `financial-os-ng` project's per-business financial OS for
+This is a standalone product — its own backend, database and deploy for
 individual merchants. A trader can plausibly use both (their own shop's
 books, and their market's collections), but the two don't share a database
 or auth: that project has its own `Business`/`User` model per merchant,
