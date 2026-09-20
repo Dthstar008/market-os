@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Market OS",
+    "slug": "market-os-trader",
+    "scheme": "marketos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
+  }
+}
